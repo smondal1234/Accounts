@@ -1,0 +1,52 @@
+
+.nav-link {
+    margin-right: 2rem;
+}
+.nav-link.active,
+.nav-link:hover {
+    color: white!important;
+    background: #007bff;
+
+}
+.dropdown-item {
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.statementWidth {
+    width: 240px;
+    margin: auto;
+}
+.navbar-toggler {
+    border-color: black;
+}
+.icon {
+    width: 20px;
+    height: 3px;
+    background: black;
+}
+@media(max-width: 576px) {
+    .navbar-brand {
+        font-size: medium;
+    }
+    .table {
+        font-size: small;
+    }
+}
+
+.progress-bar {
+    animation: progress-animation 2s infinite;
+}
+
+@keyframes progress-animation {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
